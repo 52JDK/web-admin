@@ -109,7 +109,7 @@ export default {
         {
           title: '商城前端项目地址',
           status: false,
-          url: 'http://www.baidu.com'
+          url: 'https://github.com/52JDK/web-admin'
         },
         {
           title: '商城后端项目地址',
@@ -126,8 +126,12 @@ export default {
           title: '~',
           status: false
         }, {
-          title: '小R博客',
+          title: '商城代码整理当中，估计这两天就可以上传，欢迎关注小R获取第一资讯',
           status: false
+        }, {
+          title: '小R博客',
+          status: false,
+          url: 'http://www.52jdk.com'
         },
       ],
       data: [
