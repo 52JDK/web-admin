@@ -15,7 +15,7 @@ module.exports = {
             "/api": {
                 //你要跨域的域名(包含host、端口号,切记：一定要带上http头);
                 //同一个域名只能设置一次跨域，否则重复报错！
-                target: "http://malladmin.52jdk.com",
+                target: "http://127.0.0.1:8099",
                 changeOrigin: true, //是否跨域，设置为true;(必须)
                 pathRewrite: {
                     // 这里会把当前域名下路径/api开头的地方替换为http://127.0.0.1:8099/api【这样就可以和服务器nginx保持一致的路径】

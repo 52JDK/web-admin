@@ -20,7 +20,7 @@ module.exports = merge(common, {
 		progress: true,
 		proxy: {
 			'/api': {
-				target: 'http://malladmin.52jdk.com',
+				target: 'http://127.0.0.1:8099',
 				changeOrigin: true,
 				pathRewrite: {
 					'^/api/': ''
